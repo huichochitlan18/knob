@@ -1,0 +1,61 @@
+::ng-deep .mat-progress-spinner svg {
+  transform: rotate(90deg) !important;
+}
+
+::ng-deep .mat-progress-spinner circle  {
+  stroke-linecap: round;
+}
+// :not(spinner-container).spinner-container {
+//   position: relative;
+
+//   .spinner-background {
+//     position: absolute;
+//     width: 80px;
+//     height: 80px;
+//     line-height: 80px;
+//     text-align: center;
+//     overflow: hidden;
+//     border-color: rgba(103, 58, 183, 0.12);
+//     //border-color: rgba(103, 58, 183, 0.12);
+//     border-radius: 50%;
+//     border-style: solid;
+//     border-width: 10px;
+//   }
+// }
+
+.knob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box{
+  display:flex;
+  flex-direction: column;
+}
+.text
+{
+  z-index:100;
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      overflow: hidden;
+      border-color: rgba(103, 58, 183, 0.12);
+      // border-color: rgba(103, 58, 183, 0.12);
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 10px;
+}
+p {text-align: center;}
+
+.test{
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
