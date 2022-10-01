@@ -13,10 +13,9 @@ export class KnobComponent implements OnInit {
   @Input() value = 50;
   @Input() title:string = "chrome";
   mode: ProgressSpinnerMode = 'determinate';
-  
-  @ViewChild("spinner") myButton!:ElementRef;
 
-  
+  @ViewChild("spinner") myButton!:ElementRef;
+  test:any;
   constructor(  private renderer: Renderer2 ) { }
 
   ngOnInit(): void {
